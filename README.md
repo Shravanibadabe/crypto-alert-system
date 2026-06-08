@@ -259,33 +259,32 @@ http://localhost:5173
 
 Add screenshot here
 
-```md
+
 ![Login](screenshots/login.png)
-```
+
 
 ### Dashboard
 
 Add screenshot here
 
-```md
+
 ![Dashboard](screenshots/dashboard.png)
-```
+
 
 ### Product Management
 
 Add screenshot here
 
-```md
-![Products](screenshots/products.png)
-```
+
+![Products](screenshots/product.png)
+
 
 ### User Profile
 
 Add screenshot here
 
-```md
 ![Profile](screenshots/profile.png)
-```
+
 
 ---
 
