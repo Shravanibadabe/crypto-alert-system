@@ -1,8 +1,22 @@
 # 🚀 Crypto Alert System
 
+![React](https://img.shields.io/badge/Frontend-React-blue)
+![FastAPI](https://img.shields.io/badge/Backend-FastAPI-green)
+![PostgreSQL](https://img.shields.io/badge/Database-PostgreSQL-blue)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 A full-stack web application built using **FastAPI**, **React.js**, **PostgreSQL**, **JWT Authentication**, and **Role-Based Access Control (RBAC)**.
 
 The system provides secure user authentication, role-based authorization, protected API routes, and complete product management functionality for administrators.
+
+---
+
+## 🔗 Quick Links
+
+* **Live Demo:** https://crypto-alert-system-three.vercel.app
+* **API Documentation:** https://crypto-alert-backend-zykp.onrender.com/docs
+* **GitHub Repository:** https://github.com/shravanibadabe/CryptoAlertSystem
 
 ---
 
@@ -95,6 +109,7 @@ CryptoAlertSystem
 │   │   └── main.jsx
 │   │
 │   ├── package.json
+│   │
 │   └── vite.config.js
 │
 └── README.md
@@ -113,8 +128,6 @@ CryptoAlertSystem
 | email    | VARCHAR | Unique Email    |
 | password | VARCHAR | Hashed Password |
 | role     | VARCHAR | user/admin      |
-
----
 
 ### Products Table
 
@@ -161,35 +174,19 @@ CryptoAlertSystem
 
 ```bash
 git clone https://github.com/shravanibadabe/CryptoAlertSystem.git
-```
 
-```bash
 cd CryptoAlertSystem
 ```
 
----
-
-## Backend Setup
+### Backend Setup
 
 ```bash
 cd backend
-```
 
-Create Virtual Environment
-
-```bash
 python -m venv venv
-```
 
-Activate Environment
-
-```bash
 venv\Scripts\activate
-```
 
-Install Dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
@@ -214,23 +211,13 @@ Backend URL:
 http://127.0.0.1:8000
 ```
 
----
-
-## Frontend Setup
+### Frontend Setup
 
 ```bash
 cd frontend
-```
 
-Install Packages
-
-```bash
 npm install
-```
 
-Run Frontend
-
-```bash
 npm run dev
 ```
 
@@ -253,38 +240,147 @@ http://localhost:5173
 
 ---
 
+## 🎮 Demo Credentials
+
+Use the following administrator account to test the application.
+
+### 👑 Admin Account
+
+**Email:** `shravani@gmail.com`
+
+**Password:** `123456`
+
+### Admin Permissions
+
+* Access Dashboard
+* View Product Statistics
+* Create Products
+* Update Products
+* Delete Products
+* Manage Product Records
+* Access Protected Routes
+* View User Information
+
+> Note: Product management operations are restricted to administrators through Role-Based Access Control (RBAC).
+
+---
+
+## 🌐 Live Demo
+
+### Frontend (Vercel)
+
+🚀 Live Application:
+
+https://crypto-alert-system-three.vercel.app
+
+### Backend API (Render)
+
+🚀 API Documentation:
+
+https://crypto-alert-backend-zykp.onrender.com/docs
+
+### Database
+
+☁️ PostgreSQL hosted on Neon Database
+
+---
+
+## ☁️ Deployment
+
+This project is fully deployed using modern cloud platforms.
+
+### Frontend Deployment – Vercel
+
+**Frontend URL:**
+
+https://crypto-alert-system-three.vercel.app
+
+Features:
+
+* Automatic deployment from GitHub
+* Global CDN
+* HTTPS Enabled
+* Fast Build & Deployment
+
+---
+
+### Backend Deployment – Render
+
+**Backend URL:**
+
+https://crypto-alert-backend-zykp.onrender.com
+
+**Swagger API Docs:**
+
+https://crypto-alert-backend-zykp.onrender.com/docs
+
+Features:
+
+* Automatic deployment from GitHub
+* REST API Hosting
+* Environment Variable Support
+* HTTPS Enabled
+
+---
+
+### Database Deployment – Neon PostgreSQL
+
+Features:
+
+* Managed PostgreSQL Database
+* Secure Cloud Storage
+* High Availability
+* Scalable Infrastructure
+
+---
+
+## 🔗 Project Links
+
+| Service           | URL                                                 |
+| ----------------- | --------------------------------------------------- |
+| Frontend          | https://crypto-alert-system-three.vercel.app        |
+| Backend API       | https://crypto-alert-backend-zykp.onrender.com      |
+| API Docs          | https://crypto-alert-backend-zykp.onrender.com/docs |
+| GitHub Repository | https://github.com/shravanibadabe/CryptoAlertSystem |
+
+---
+
+## 🚀 Deployment Architecture
+
+```text
+User Browser
+      │
+      ▼
+React Frontend (Vercel)
+      │
+      ▼
+FastAPI Backend (Render)
+      │
+      ▼
+PostgreSQL Database (Neon)
+```
+
+This architecture provides secure authentication, scalable API hosting, and reliable cloud database storage.
+
+---
+
 ## 📸 Screenshots
 
 ### Login Page
 
-Add screenshot here
-
-
 ![Login](screenshots/login.png)
-
 
 ### Dashboard
 
-Add screenshot here
-
-
 ![Dashboard](screenshots/dashboard.png)
-
 
 ### Product Management
 
-Add screenshot here
-
-
 ![Products](screenshots/product.png)
-
 
 ### User Profile
 
-Add screenshot here
-
 ![Profile](screenshots/profile.png)
-
 
 ---
 
